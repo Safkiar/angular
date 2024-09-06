@@ -1,0 +1,9 @@
+@Component - angular framework for decorator
+
+ng g c nameOfComponent
+
+VERSION:
+16 - signal
+
+HTML:
+[src]="'assets/users/' + selectedUser.avatar"
