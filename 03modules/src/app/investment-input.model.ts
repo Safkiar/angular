@@ -1,1 +1,0 @@
-export interface inveestmentInput {initialInvestment: number, duration:number, expectedReturn: number, annualInvestment:number}
