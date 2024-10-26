@@ -1,0 +1,32 @@
+<main>
+  <app-learning-resources />
+
+  <hr />
+
+  <app-auth />
+
+  <!-- signal -->
+
+  <!-- @if (isAdmin()) {
+  <p>Admin</p>
+  } -->
+
+  <!-- directives -->
+
+  <!-- <p *ngIf="isAdmin()">Admin</p> -->
+
+  <!-- <ng-template appAtuh="admin">
+    <p>Admin</p>
+  </ng-template> -->
+
+  <p *appAuth="'admin'" appLog class="protected-content admin">
+    Only admin see this
+  </p>
+  <p *appAuth="'user'" class="protected-content unauthenticated">
+    regular users
+  </p>
+  <p *appAuth="'guest'" class="protected-content authenticated">guest users</p>
+</main>
+
+<!--  <ng-template> is a structural directive that allows you to define a template block that is not rendered directly in the DOM unless it is explicitly used. -->
+<!-- *nfif --- * add automaticaly ng template -->

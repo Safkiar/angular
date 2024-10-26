@@ -1,0 +1,33 @@
+.new-ticket {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.new-ticket ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 15rem;
+}
+
+.new-ticket li {
+  margin: 0.5rem 0;
+}
+
+.new-ticket p {
+  margin: 0;
+  color: #4f4b53;
+}
+
+.new-ticket h2 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #38343c;
+}
+
+@media (min-width: 768px) {
+  .new-ticket {
+    flex-direction: row;
+  }
+}
