@@ -1,0 +1,3 @@
+https://github.com/mschwarzmueller/angular-complete-guide-course-resources/tree/main/code-snapshots/09-services-deep-dive/services-ngmodules
+
+https://github.com/mschwarzmueller/angular-complete-guide-course-resources/tree/main/code-snapshots/09-services-deep-dive/services-nosignals
